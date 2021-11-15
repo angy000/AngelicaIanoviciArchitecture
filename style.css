@@ -1,0 +1,81 @@
+body {
+  background-color: #80800054;
+  font-family: Garamond;
+  background-size: cover;
+}
+
+h1 {
+  display: flex;
+  flex-direction: column;
+  font-family: "Garamond", sans-serif;
+  color: #5e7e1f;
+  font-size: 40px;
+  border-bottom: 1px solid #5e7e1f;
+  align-items: center;
+  justify-content: center;
+}
+
+.angi {
+  font-size: 30px;
+  font-weight: lighter;
+}
+.archi {
+  font-size: 40px;
+  font-weight: lighter;
+  display: flex;
+  letter-spacing: 50px;
+  padding-top: 10px;
+}
+
+h1 span {
+  position: relative;
+}
+
+.buttons-container {
+  position: relative;
+  padding-top: 50px;
+}
+
+.logo-medias-insta {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+}
+
+.lien {
+  font-size: 20px;
+  font-family: Lato;
+  color: #5e7e1f;
+  cursor: pointer;
+  text-transform: unset;
+  text-decoration: none;
+}
+
+.lien:hover {
+  color: #81aa29;
+}
+
+.button {
+  border: #5e7e1f;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.bulle {
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  background: #5e7e1f;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.bulle:hover {
+  background: #81aa29;
+}
