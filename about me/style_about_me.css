@@ -1,13 +1,14 @@
 body {
-  background-color: #80800054;
+  background-color:white;
   font-family: Garamond;
   background-size: cover;
+  margin: 0%;
 }
 
 .lien {
   font-size: 20px;
   font-family: Lato;
-  color: #5e7e1f;
+  color: black;
   cursor: pointer;
   text-transform: unset;
   text-decoration: none;
@@ -17,23 +18,23 @@ body {
 .current-lien {
   font-size: 20px;
   font-family: Lato;
-  color: #81aa29;
+  color: black;
   cursor: default;
   text-transform: unset;
   text-decoration: none;
   word-spacing: normal;
-  border-bottom: 3px solid #5e7e1f;
+  border-bottom: 3px solid black;
 }
 
 .lien:hover {
-  color: #81aa29;
+  color: black;
 }
 
 .buttons {
   padding: auto;
   text-align: center;
   word-spacing: 30px;
-  border-bottom: 1px solid #5e7e1f;
+  border-bottom: 1px solid black;
 }
 
 .navbar {
@@ -44,21 +45,7 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
-  height: 36px;
-  z-index: 1;
+  height: 5%;
+  background-color: rgb(228, 228, 228);
 }
 
-.home{
-   padding-top: 28px;
-}
-
-.home-button{
-   font-size: 30px;
-   color: #5e7e1f;
-   text-transform: unset;
-   text-decoration: none;
-}
-
-.home-button:hover{
-   color: #81aa29;
-}
