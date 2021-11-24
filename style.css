@@ -1,5 +1,5 @@
 body {
-  background-color: #80800054;
+  background-color: rgb(255, 255, 255);
   font-family: Garamond;
   background-size: cover;
 }
@@ -8,9 +8,9 @@ h1 {
   display: flex;
   flex-direction: column;
   font-family: "Garamond", sans-serif;
-  color: #5e7e1f;
+  color: black;
   font-size: 40px;
-  border-bottom: 1px solid #5e7e1f;
+  border-bottom: 1px solid black;
   align-items: center;
   justify-content: center;
 }
@@ -48,18 +48,18 @@ h1 span {
 .lien {
   font-size: 20px;
   font-family: Lato;
-  color: #5e7e1f;
+  color: black;
   cursor: pointer;
   text-transform: unset;
   text-decoration: none;
 }
 
 .lien:hover {
-  color: #81aa29;
+  color: black;
 }
 
 .button {
-  border: #5e7e1f;
+  border: black;
   text-align: center;
   padding-bottom: 100px;
 }
@@ -70,12 +70,13 @@ h1 span {
   height: 50px;
   border-radius: 50%;
   display: flex;
-  background: #5e7e1f;
+  background: black;
   align-items: center;
   justify-content: center;
   cursor: pointer;
 }
 
 .bulle:hover {
-  background: #81aa29;
+  background:black ;
 }
+
