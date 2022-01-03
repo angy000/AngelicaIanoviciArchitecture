@@ -2,9 +2,11 @@ body {
   background-color: rgb(255, 255, 255);
   font-family: Garamond;
   background-size: cover;
+  margin: 0%;
 }
 
 h1 {
+  background-color: rgb(228, 228, 228);
   display: flex;
   flex-direction: column;
   font-family: "Garamond", sans-serif;
@@ -13,17 +15,18 @@ h1 {
   border-bottom: 1px solid black;
   align-items: center;
   justify-content: center;
+  margin-top: 0%;
 }
 
 .angi {
-  font-size: 30px;
+  font-size: 70%;
   font-weight: lighter;
 }
 .archi {
-  font-size: 40px;
+  font-size: 80%;
   font-weight: lighter;
   display: flex;
-  letter-spacing: 50px;
+  letter-spacing: 2.5vw;
   padding-top: 10px;
 }
 
@@ -77,6 +80,6 @@ h1 span {
 }
 
 .bulle:hover {
-  background:black ;
+  background: black;
 }
 
