@@ -9,6 +9,7 @@ body.lb-disable-scrolling {
   overflow: hidden;
 }
 .lightboxOverlay {
+  max-width: 100%;
   position: absolute;
   top: 0;
   left: 0;
@@ -132,7 +133,7 @@ body.lb-disable-scrolling {
   line-height: 1.1em;
 }
 .lb-data .lb-caption {
-   font-family: Garamond;
+  font-family: Garamond;
   font-size: 13px;
   font-weight: 700;
   line-height: 1em;
@@ -141,7 +142,7 @@ body.lb-disable-scrolling {
   color: #4ae;
 }
 .lb-data .lb-number {
-   font-family: Garamond;
+  font-family: Garamond;
   display: block;
   clear: left;
   padding-bottom: 1em;
@@ -168,3 +169,4 @@ body.lb-disable-scrolling {
   filter: alpha(Opacity=100);
   opacity: 1;
 }
+
