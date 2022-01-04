@@ -1,0 +1,190 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: white;
+  font-family: Garamond;
+  background-size: cover;
+  margin: 0%;
+}
+
+.lien {
+  font-size: 100%;
+  font-family: Lato;
+  color: black;
+  cursor: pointer;
+  text-transform: unset;
+  text-decoration: none;
+  word-spacing: normal;
+}
+
+.current-lien {
+  font-size: 115%;
+  font-family: Lato;
+  color: black;
+  cursor: default;
+  text-transform: unset;
+  text-decoration: none;
+  word-spacing: normal;
+  border-bottom: 2px solid black;
+}
+
+.lien:hover {
+  color: black;
+}
+
+.buttons {
+  padding: auto;
+  text-align: center;
+  word-spacing: 1vw;
+  border-bottom: 1px solid black;
+}
+
+.navbar {
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100vw;
+  background-color: rgb(228, 228, 228);
+  z-index: 2;
+}
+
+.preview-container {
+  padding-top: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16%;
+}
+
+.preview {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0%;
+  text-align: center;
+}
+
+.preview-click:hover {
+  transition: 0.1s;
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+.preview-title {
+  font-size: 130%;
+  font-family: Garamond;
+  color: black;
+}
+
+.preview-image {
+  margin-top: 1%;
+}
+
+.title-left {
+  font-family: Lato;
+  font-size: 200%;
+  color: black;
+  margin-left: 20px;
+  padding-bottom: 5px;
+  font-size: 20px;
+  margin-top: 15%;
+}
+
+.txt-left {
+  font-size: 1vw;
+  font-family: Lato;
+  color: rgba(0, 0, 0, 0.481);
+}
+
+.text {
+  flex-direction: column;
+  display: inline-block;
+  max-width: 790px;
+  min-width: 200px;
+  height: auto;
+  margin-left: 2%;
+}
+
+.Retourner-en-haut {
+  cursor: pointer;
+  margin-left: 30%;
+  font-size: 80%;
+  font-family: Garamond;
+  color: rgba(0, 0, 0, 0.481);
+}
+
+.Retourner-en-haut:hover {
+  color: black;
+}
+
+@media only screen and (max-width: 900px) {
+  .preview-container {
+    padding-top: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100%;
+  }
+
+  .preview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+    text-align: center;
+  }
+
+  .preview-title {
+    margin-top: 10%;
+    font-size: 100%;
+    font-family: Garamond;
+    color: black;
+  }
+
+  .preview-image {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1740px) {
+  .txt-left {
+    font-size: 90%;
+    font-family: Lato;
+    color: rgba(0, 0, 0, 0.481);
+  }
+}
+
+.images-projects1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.colums-images {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 6%;
+}
+
+.row-images {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.click-on-image {
+  margin: 2%;
+}
+
+.photo {
+  width: 100%;
+}
