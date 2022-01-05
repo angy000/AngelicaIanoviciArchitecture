@@ -103,8 +103,7 @@ body {
 .text {
   flex-direction: column;
   display: inline-block;
-  max-width: 790px;
-  min-width: 200px;
+  max-width: 100%;
   height: auto;
   margin-left: 2%;
 }
