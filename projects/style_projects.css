@@ -56,7 +56,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 16%;
   height: 100vh;
 }
 
@@ -130,7 +129,6 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin-bottom: 100%;
   }
 
   .preview {
