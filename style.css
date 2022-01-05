@@ -35,7 +35,12 @@ h1 span {
 
 .buttons-container {
   position: relative;
-  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
 }
 
 .logo-medias-insta {
@@ -63,18 +68,15 @@ h1 span {
 .button {
   border: black;
   text-align: center;
-  padding-bottom: 100px;
+  margin-bottom: 10vh;
 }
 
 .bulle {
-  margin: auto;
   width: 50px;
   height: 50px;
   border-radius: 50%;
   display: flex;
   background: black;
-  align-items: center;
-  justify-content: center;
   cursor: pointer;
 }
 
