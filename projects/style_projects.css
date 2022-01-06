@@ -149,6 +149,8 @@ body {
   }
 
   .preview-title {
+    position: unset;
+    margin-left: 0%;
     display: unset;
     margin-top: 10%;
     font-size: 100%;
