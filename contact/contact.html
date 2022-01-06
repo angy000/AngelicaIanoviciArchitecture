@@ -15,7 +15,7 @@
   <body>
     <div class="navbar">
       <header class="buttons">
-         <a class="lien" href="..\index.html">HOME</a>
+        <a class="lien" href="..\index.html">HOME</a>
         <a class="lien" id="0001" href="..\projects\projects.html">PROJECTS</a>
         <a class="lien" id="0010" href="..\art\art.html">ART</a>
         <a class="lien" id="0011" href="..\photography\photography.html"
@@ -25,6 +25,33 @@
         <a class="current-lien" id="0101" href="">CONTACT</a>
       </header>
     </div>
-    <div class="home"><a class="home-button" href="..\index.html">←</a></div>
+    <div class="form-container">
+      <form
+        class="contact-form"
+        action="https://formsubmit.co/ianoviciangy@gmail.com"
+        method="POST"
+      >
+        <h2>Contact me</h2>
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://angy000.github.io/AngelicaIanoviciArchitecture/contact/contact.html">
+        <input type="text" id="name" name="name" placeholder="Nom" required /><br>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Email"
+          required
+        /></br>
+        <input type="text" id="subject" placeholder="Subject" /></br>
+        <textarea
+          id="message"
+          placeholder="Message"
+          cols="30"
+          rows="10"
+          required
+        ></textarea></br>
+        <button type="submit" class="submit">Send</button>
+      </form>
+    </div>
   </body>
 </html>
