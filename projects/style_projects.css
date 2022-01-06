@@ -69,11 +69,19 @@ body {
 
 .preview-click:hover {
   transition: 0.1s;
-  transform: scale(1.02);
+  transform: scale(1.01);
   cursor: pointer;
 }
 
+.preview-click:hover > .preview-title {
+  display: unset;
+}
+
 .preview-title {
+  display: none;
+  position: absolute;
+  margin-left: 10%;
+  margin-top: 20%;
   font-size: 130%;
   font-family: Garamond;
   color: black;
