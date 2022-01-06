@@ -149,6 +149,7 @@ body {
   }
 
   .preview-title {
+    display: unset;
     margin-top: 10%;
     font-size: 100%;
     font-family: Garamond;
