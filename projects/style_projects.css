@@ -90,10 +90,10 @@ body {
   display: none;
   position: absolute;
   margin-left: 10%;
-  margin-top: 20%;
+  margin-top: 115%;
   font-size: 130%;
   font-family: Garamond;
-  color: rgb(63, 63, 63);
+  color: rgb(0, 0, 0);
 }
 
 .preview-image {
@@ -213,6 +213,7 @@ body {
 }
 
 .Retourner-en-haut {
+  padding-top: 2%;
   margin-left: 2%;
   cursor: pointer;
   font-size: 110%;
@@ -244,6 +245,7 @@ body {
     margin-top: 5%;
   }
   .Retourner-en-haut {
+    padding-top: 2%;
     cursor: pointer;
     font-size: 110%;
     font-family: Garamond;
@@ -273,8 +275,8 @@ body {
 }
 
 .click-on-image {
-  margin: 4%;
-  width: 30%;
+  margin: 2%;
+  width: 20%;
 }
 
 .photo {
@@ -446,11 +448,22 @@ body {
 
 .video-project {
   position: absolute;
-  transform: translateX(119%);
-  width: 31%;
+  transform: translateX(195%);
+  width: 21%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media only screen and (max-width: 1500px) {
+  .video-project {
+    position: absolute;
+    transform: translateX(111%);
+    width: 31%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media only screen and (max-width: 900px) {
